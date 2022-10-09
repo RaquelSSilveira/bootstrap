@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url(fundo_main.jpg);
+        }
+    </style>
+    <header> UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h3>SIGAA</h3>
+    <title> Sigaa</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="fundo_main">
+        <form paineldecontrole ="form_paineldecontrole" action="paineldecontrole.html" method="POST">
+            Usuário: <input type="text" name="usuario" value=""> <br/>
+            Senha: <input type="password" name="senha" value=""> <br/>
+            <input type="submit" value="entrar">
+        </form>
+    </div>
+    <!-- Modal com texto e tooltip -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+        Novo Sigaa
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Novo Sigaa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <p>Voce esta acessando uma <a href="#" class="tooltip-test" title="Versão 2.4.5">Versão Beta</a> do <a href="#" class="tooltip-test" title="Plataforma Sigaa">Sigaa</a></p>
+            </div>             
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+<br>
+
+        <!-- Modal full screen e modal com scrol -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLongoExemplo">
+        Clique aqui para acessar os tutoriais do SIGAA
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+        <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
+        <div class="modal-content-full-width modal-content">
+            <div class="modal-header-full-width   modal-header text-center">
+            <h5 class="modal-title" id="TituloModalLongoExemplo">
+                Informações</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                Descrição
+                Acessar o SIGAA → Portal do Docente → Componente Curricular → Escolher o Curso desejado
+                → Notícias →Cadastrar Notícias
+                Esta opção permite ao docente realizar o cadastro de notícias e informações para os
+                participantes da turma virtual. É importante salientar que nesta funcionalidade existe a opção
+                de a notícia também poderá ser enviada por e-mail, conforme os seguintes passos:
+                
+                Instruções de Uso
+                Para exemplificar, selecionamos anteriormente o Componente Curricular: CK0183 -
+                CONSTRUÇÃO E ANÁLISE DE ALGORITMOS - T01.Logo após a seleção do curso, do lado
+                esquerdo da tela são apresentadas as seguintes opções:
+                
+                2
+                
+                1. Cadastrar Notícia
+                Ao clicar em Notícias, a tela seguinte que será aberta apresentará o seguinte
+                botão:
+                
+                Ao clicar em Cadastrar Notícia, a seguinte tela será apresentada:
+                
+                Nesta opção é preciso informar os seguintes dados:
+                ● Título: Insira um título para a notícia;
+                ● Texto: Descreva o assunto da notícia;
+                ● Notificação: Marque esta opção, caso queira que a notícia seja enviada
+                para todos os participantes da turma (opcional)
+                
+                3
+                
+                ● Criar em: Assinale em qual componente curricular, dentre as opções que
+                o docente leciona, a notícia será cadastrada.
+                
+                Na tela acima, clique no ícone para selecionar automaticamente todos os componentes
+                presentes na lista para o recebimento da notícia.
+                Como exemplo, utilizaremos o Título: Realização de Exercício Aula 01; o Texto: Prezados
+                alunos, boa tarde. Os exercícios da aula 01 encontram-se disponíveis no SIGAA e Criar em
+                CK0183 - CONSTRUÇÃO E ANÁLISE DE ALGORITMOS - T01. Feito isso, clique em Cadastrar.
+                Logo, a seguinte mensagem de sucesso será apresentada:
+                
+                2. Visualizar Notícia
+                Para visualizar a notícia, basta clicar novamente na opção do lado esquerdo: Notícias e
+                verificar a seguinte tela com as opções a seguir:
+                
+                Clique no ícone para visualizar detalhes da notícia.
+                Utilizaremos como exemplo a notícia de Título Realização de Exercício Aula 01. A tela
+                seguinte será exibida:
+                
+                4
+                Clique em Voltar caso queira retornar à página anterior.
+                Clicando em Editar o usuário poderá alterar a notícia. Essa função será explicada no
+                tópico seguinte.
+                
+                3. Alterar Notícia
+                Ao clicar em será possível realizar alterações na notícia.
+                Como exemplo, usaremos a notícia de Título INTRODUÇÃO À DISCIPLINA AMANHÃ. A
+                página seguinte será fornecida:
+                
+                Os dados disponíveis para a edição da notícia são os mesmos explicados anteriormente no
+                processo de cadastro da mesma.
+                Para visualizar como a mensagem irá ficar, clique em Mostrar. A tela apresentada será
+                semelhante à exibida no tópico Visualizar Notícia.
+                Após realizar as alterações desejadas, clique em Atualizar Dados. Uma mensagem de
+                sucesso será exibida:
+                
+                4. Remover Notícia
+                Clique em para remover uma notícia.
+            </div>
+            <div class="modal-footer-full-width  modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <br>
+    <!-- modal com formulário-->
+    <div class="container">
+        <h3>Primeiro Acesso</h3>
+        <p>
+            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#addUsuarioModal">
+                Cadastrar
+            </button>
+        </p>
+        <span id="msg"></span>
+        <span id="conteudo"></span><br><br><br>
+    </div>
+    <div id="addUsuarioModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addUsuarioModalLabel">Cadastrar Usuário</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" id="insert_form">
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Nome:</label>
+                            <div class="col-sm-10">
+                                <input name="nome" type="text" class="form-control" id="nome" placeholder="Nome completo">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Matrícula:</label>
+                            <div class="col-sm-10">
+                                <input name="email" type="email" class="form-control" id="email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <input type="submit" name="CadUser" id="CadUser" value="Cadastrar" class="btn btn-outline-success">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <footer class="footer">
+        SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 - si3asprd04.ufc.br
+      </footer>
+</body>
+
+</html>
